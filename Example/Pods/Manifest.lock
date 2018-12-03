@@ -1,0 +1,23 @@
+PODS:
+  - Gru (0.1.5)
+  - Margot (0.1.0):
+    - Gru
+
+DEPENDENCIES:
+  - Margot (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Gru
+
+EXTERNAL SOURCES:
+  Margot:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Gru: d5535707d42c82202c9f889079a8d1d5552730a4
+  Margot: 830e983b8d3674a3f3901562f6ed383c7f1bcde4
+
+PODFILE CHECKSUM: 0c2b33d9519d2933bd0cd88ec88dcff079d72e24
+
+COCOAPODS: 1.5.3

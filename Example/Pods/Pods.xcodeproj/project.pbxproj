@@ -1,0 +1,1030 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1622221FC7CF900B03F47AA0EE6966E1 /* Margot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 629A61CB0E91230F2E731481C938E3D0 /* Margot-dummy.m */; };
+		2358CC58C0F4662D5BB6ED3322BFF54C /* Pods-Margot_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A5BE57D2B72AE9DF87D355B39409D536 /* Pods-Margot_Tests-dummy.m */; };
+		2BF403F649761B2C33052285730D1C34 /* Pods-Margot_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FE6ED0BB61D468C3C90325A0D5EB6 /* Pods-Margot_Example-dummy.m */; };
+		3E8A709C4FCABBBE302745ED475D1880 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE69C8ED257B904CBE09910DEF985D4 /* Foundation.framework */; };
+		660A01E4C858ACBAD55FC5482B7C96D5 /* Pods-Margot_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DE9197477383DF1F3FEFEF9ADF942A9 /* Pods-Margot_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78C9905EE7ED090C5E482CED179115F6 /* Gru-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFDE7FC41E9D7A733C944DB82FA44A76 /* Gru-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C9C92359A9B1C1FDD79D88D7DCC8E3A /* Pods-Margot_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 122488CFC48252820866826AEDB31A33 /* Pods-Margot_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F1BAF4CF168FBEA932A55B1A48C9720 /* Margot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA32AC8A382188758CA884CDEDB389DC /* Margot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		903A93945248A768FFE144FFC09D7F3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE69C8ED257B904CBE09910DEF985D4 /* Foundation.framework */; };
+		97C4EFA08886FF2F25093662B1CB5B16 /* Gru-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E44ABDF99600AFA07C604101ACBA04E4 /* Gru-dummy.m */; };
+		9CF38F90625344B47E510E1EEB01DC6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE69C8ED257B904CBE09910DEF985D4 /* Foundation.framework */; };
+		BFECD6A0082B875514593712254A6741 /* Gru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0334370EC7D565234250048E022EB98A /* Gru.framework */; };
+		E17C0A21E8B32BF79AA259B3B765B69A /* Gruable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE53004BEC256559606C5BEB50EF8AA3 /* Gruable.swift */; };
+		EBFF7AE1DCF5F29D089469A8F4FA905E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EE69C8ED257B904CBE09910DEF985D4 /* Foundation.framework */; };
+		ED45258821AFE88600209E24 /* MargotSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45258721AFE88600209E24 /* MargotSystem.swift */; };
+		ED45258B21AFEBBE00209E24 /* Conversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45258A21AFEBBE00209E24 /* Conversion.swift */; };
+		ED45258D21B0D9F700209E24 /* MargotUIScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45258C21B0D9F700209E24 /* MargotUIScreen.swift */; };
+		ED45258F21B0E8F600209E24 /* DoubleConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45258E21B0E8F600209E24 /* DoubleConversion.swift */; };
+		ED45259121B0ED4700209E24 /* IntConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45259021B0ED4700209E24 /* IntConversion.swift */; };
+		ED45259421B3C26700209E24 /* CGFloatConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45259221B3BEA900209E24 /* CGFloatConversion.swift */; };
+		ED45259621B3C47F00209E24 /* LazyCaculatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED45259521B3C47F00209E24 /* LazyCaculatable.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72DE5FA127C829A189AB7EE99DBBA2F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6C30E45086968A00EA1467AF2DE7780;
+			remoteInfo = "Pods-Margot_Example";
+		};
+		91766C2F003BDD203BEF63AA746C6A87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A034A0F018E7CF5579667C30401F011;
+			remoteInfo = Gru;
+		};
+		9B7329659ADCB0044EDAD6F553774FB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A034A0F018E7CF5579667C30401F011;
+			remoteInfo = Gru;
+		};
+		F980EBC5980240261D5548649B50395C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44B4F225F08292C80C2C5F3A05086020;
+			remoteInfo = Margot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0334370EC7D565234250048E022EB98A /* Gru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		05E2181504262A23599FC9A0FEB24952 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		122488CFC48252820866826AEDB31A33 /* Pods-Margot_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Margot_Tests-umbrella.h"; sourceTree = "<group>"; };
+		175012E0DA5D97AF8D4FCD2C2EC55670 /* Pods-Margot_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Margot_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		18C94641DF364DA4EF9362648EFDB7F9 /* Pods-Margot_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Margot_Example.release.xcconfig"; sourceTree = "<group>"; };
+		194834221E04A623BC19F6EAF3E3B38D /* Margot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Margot-prefix.pch"; sourceTree = "<group>"; };
+		1DE9197477383DF1F3FEFEF9ADF942A9 /* Pods-Margot_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Margot_Example-umbrella.h"; sourceTree = "<group>"; };
+		2FFC36577D49AEF85858B5064AB3048D /* Pods_Margot_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Margot_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		349EB8C2ED725726CEBE82EC3A2D3E89 /* Pods-Margot_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Margot_Example-resources.sh"; sourceTree = "<group>"; };
+		3CAC04E2846F1D539933A3FF0AED2900 /* Pods-Margot_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Margot_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3E89755B4982652A8CA97105E891534E /* Pods-Margot_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Margot_Tests-resources.sh"; sourceTree = "<group>"; };
+		482A18CD412760C7CDBA7118721CBF71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		588FE6ED0BB61D468C3C90325A0D5EB6 /* Pods-Margot_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Margot_Example-dummy.m"; sourceTree = "<group>"; };
+		61ABBDB2E6FAA7C2AE7ED1C09A05FB69 /* Gru-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gru-prefix.pch"; sourceTree = "<group>"; };
+		629A61CB0E91230F2E731481C938E3D0 /* Margot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Margot-dummy.m"; sourceTree = "<group>"; };
+		6BE7977070DA7D03C156123BEB65B9DA /* Gru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Gru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70ED1ED7437B9367C980BC2599DBC48C /* Margot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Margot.modulemap; sourceTree = "<group>"; };
+		7418D41644E47135E7E6F2F6CBEA4737 /* Pods-Margot_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Margot_Tests.modulemap"; sourceTree = "<group>"; };
+		77C4BDB4A74608F61C1FA6AD36C3D982 /* Gru.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Gru.xcconfig; sourceTree = "<group>"; };
+		866798EDF81C256C23B837EEFB7037F5 /* Pods-Margot_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Margot_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EE69C8ED257B904CBE09910DEF985D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		934366DFB382B8488E6A7FEB42BA5C18 /* Margot.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Margot.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93877148D05F94D651BF1A471E90D542 /* Pods-Margot_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Margot_Example-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9472C990C9CB29CC86613A890F74FE26 /* Pods-Margot_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Margot_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A2B2ECF157CF08EDB0D765BC3FD4178D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5BE57D2B72AE9DF87D355B39409D536 /* Pods-Margot_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Margot_Tests-dummy.m"; sourceTree = "<group>"; };
+		AE71B27506D30B9F754A540817A123E8 /* Pods-Margot_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Margot_Example.modulemap"; sourceTree = "<group>"; };
+		AF32E819A6045B01C0AA5D545AAFD295 /* Pods-Margot_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Margot_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B19ECE97135440F7EAB8659B6AFF0C63 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DDD5C16BD87FEEDC068AB535501710 /* Pods_Margot_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Margot_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99FD5473E3B2A286FB125CDFDC7534C /* Pods-Margot_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Margot_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BBF7DFA161D238C7E2B9E3212152D82F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C24176E9EFD455DFF124FD89CC68FDED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC9B38C0DD70747E621F0DAD6861DED7 /* Margot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Margot.xcconfig; sourceTree = "<group>"; };
+		DA32AC8A382188758CA884CDEDB389DC /* Margot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Margot-umbrella.h"; sourceTree = "<group>"; };
+		E44ABDF99600AFA07C604101ACBA04E4 /* Gru-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Gru-dummy.m"; sourceTree = "<group>"; };
+		E487EC29E1A4E44AC96D0B736DDF08C7 /* Gru.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Gru.modulemap; sourceTree = "<group>"; };
+		E9AC704F023518A34587AC98FFB38E79 /* Pods-Margot_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Margot_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ED45258721AFE88600209E24 /* MargotSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargotSystem.swift; sourceTree = "<group>"; };
+		ED45258A21AFEBBE00209E24 /* Conversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion.swift; sourceTree = "<group>"; };
+		ED45258C21B0D9F700209E24 /* MargotUIScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargotUIScreen.swift; sourceTree = "<group>"; };
+		ED45258E21B0E8F600209E24 /* DoubleConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleConversion.swift; sourceTree = "<group>"; };
+		ED45259021B0ED4700209E24 /* IntConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntConversion.swift; sourceTree = "<group>"; };
+		ED45259221B3BEA900209E24 /* CGFloatConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloatConversion.swift; sourceTree = "<group>"; };
+		ED45259521B3C47F00209E24 /* LazyCaculatable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyCaculatable.swift; sourceTree = "<group>"; };
+		EE53004BEC256559606C5BEB50EF8AA3 /* Gruable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Gruable.swift; path = Gru/Classes/Base/Gruable.swift; sourceTree = "<group>"; };
+		EFDE7FC41E9D7A733C944DB82FA44A76 /* Gru-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Gru-umbrella.h"; sourceTree = "<group>"; };
+		F78F78312C8215772C7AFB44FE8F0E30 /* Pods-Margot_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Margot_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEF5FB676037D9DDA5FCE9FBE0AAB62F /* Margot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Margot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BE313332B0E01509A2CB930D0E3693F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF38F90625344B47E510E1EEB01DC6C /* Foundation.framework in Frameworks */,
+				BFECD6A0082B875514593712254A6741 /* Gru.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A953DC5FE9ACBB8C28D44FE739B3BC9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBFF7AE1DCF5F29D089469A8F4FA905E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0F17520235B479A4274855A2F65E3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903A93945248A768FFE144FFC09D7F3B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B572CB470951B77F24931E8CABDC59ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E8A709C4FCABBBE302745ED475D1880 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B3B364CE65B828292193A9F6C5FCF89 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E487EC29E1A4E44AC96D0B736DDF08C7 /* Gru.modulemap */,
+				77C4BDB4A74608F61C1FA6AD36C3D982 /* Gru.xcconfig */,
+				E44ABDF99600AFA07C604101ACBA04E4 /* Gru-dummy.m */,
+				61ABBDB2E6FAA7C2AE7ED1C09A05FB69 /* Gru-prefix.pch */,
+				EFDE7FC41E9D7A733C944DB82FA44A76 /* Gru-umbrella.h */,
+				482A18CD412760C7CDBA7118721CBF71 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Gru";
+			sourceTree = "<group>";
+		};
+		1B3321CE368DE29635AFDE9F0EFA7AE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6BE7977070DA7D03C156123BEB65B9DA /* Gru.framework */,
+				FEF5FB676037D9DDA5FCE9FBE0AAB62F /* Margot.framework */,
+				B8DDD5C16BD87FEEDC068AB535501710 /* Pods_Margot_Example.framework */,
+				2FFC36577D49AEF85858B5064AB3048D /* Pods_Margot_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2703929F094A4F1B6791F54201B17BF9 /* Gru */ = {
+			isa = PBXGroup;
+			children = (
+				EE53004BEC256559606C5BEB50EF8AA3 /* Gruable.swift */,
+				0B3B364CE65B828292193A9F6C5FCF89 /* Support Files */,
+			);
+			path = Gru;
+			sourceTree = "<group>";
+		};
+		3D9EC20046572BDDE2E52A49BB7EF09E /* Pods-Margot_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A2B2ECF157CF08EDB0D765BC3FD4178D /* Info.plist */,
+				7418D41644E47135E7E6F2F6CBEA4737 /* Pods-Margot_Tests.modulemap */,
+				AF32E819A6045B01C0AA5D545AAFD295 /* Pods-Margot_Tests-acknowledgements.markdown */,
+				3CAC04E2846F1D539933A3FF0AED2900 /* Pods-Margot_Tests-acknowledgements.plist */,
+				A5BE57D2B72AE9DF87D355B39409D536 /* Pods-Margot_Tests-dummy.m */,
+				175012E0DA5D97AF8D4FCD2C2EC55670 /* Pods-Margot_Tests-frameworks.sh */,
+				3E89755B4982652A8CA97105E891534E /* Pods-Margot_Tests-resources.sh */,
+				122488CFC48252820866826AEDB31A33 /* Pods-Margot_Tests-umbrella.h */,
+				866798EDF81C256C23B837EEFB7037F5 /* Pods-Margot_Tests.debug.xcconfig */,
+				B99FD5473E3B2A286FB125CDFDC7534C /* Pods-Margot_Tests.release.xcconfig */,
+			);
+			name = "Pods-Margot_Tests";
+			path = "Target Support Files/Pods-Margot_Tests";
+			sourceTree = "<group>";
+		};
+		69744ED675E8BE085FDB09828C58FE62 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24176E9EFD455DFF124FD89CC68FDED /* Info.plist */,
+				70ED1ED7437B9367C980BC2599DBC48C /* Margot.modulemap */,
+				CC9B38C0DD70747E621F0DAD6861DED7 /* Margot.xcconfig */,
+				629A61CB0E91230F2E731481C938E3D0 /* Margot-dummy.m */,
+				194834221E04A623BC19F6EAF3E3B38D /* Margot-prefix.pch */,
+				DA32AC8A382188758CA884CDEDB389DC /* Margot-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Margot";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F13541A87815C48E1F9047018B5F0DFC /* Development Pods */,
+				C053A2EA0722942D3D0CB66D5C0D05B8 /* Frameworks */,
+				BDD6EBE4D01643957D4CE77536E560F8 /* Pods */,
+				1B3321CE368DE29635AFDE9F0EFA7AE0 /* Products */,
+				E1EC075F33270B3532C9449E4271946E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A5656F04C3E77E7B9E16EE453AEE6C5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8EE69C8ED257B904CBE09910DEF985D4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B303BAC959E14F6FEED5338BEFE3D04D /* Margot */ = {
+			isa = PBXGroup;
+			children = (
+				ED45258921AFEBB200209E24 /* BasicTypeConvert */,
+				ED9EE8ED21AFE6CA0074F5CC /* System */,
+				B3372A90B8EA6B947129C9DD1C78F30C /* Pod */,
+				69744ED675E8BE085FDB09828C58FE62 /* Support Files */,
+			);
+			name = Margot;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		B3372A90B8EA6B947129C9DD1C78F30C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BBF7DFA161D238C7E2B9E3212152D82F /* LICENSE */,
+				934366DFB382B8488E6A7FEB42BA5C18 /* Margot.podspec */,
+				05E2181504262A23599FC9A0FEB24952 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		BDD6EBE4D01643957D4CE77536E560F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2703929F094A4F1B6791F54201B17BF9 /* Gru */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C053A2EA0722942D3D0CB66D5C0D05B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0334370EC7D565234250048E022EB98A /* Gru.framework */,
+				8A5656F04C3E77E7B9E16EE453AEE6C5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4F31B33BF82A3DF86100682BC9DF18A /* Pods-Margot_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B19ECE97135440F7EAB8659B6AFF0C63 /* Info.plist */,
+				AE71B27506D30B9F754A540817A123E8 /* Pods-Margot_Example.modulemap */,
+				F78F78312C8215772C7AFB44FE8F0E30 /* Pods-Margot_Example-acknowledgements.markdown */,
+				9472C990C9CB29CC86613A890F74FE26 /* Pods-Margot_Example-acknowledgements.plist */,
+				588FE6ED0BB61D468C3C90325A0D5EB6 /* Pods-Margot_Example-dummy.m */,
+				93877148D05F94D651BF1A471E90D542 /* Pods-Margot_Example-frameworks.sh */,
+				349EB8C2ED725726CEBE82EC3A2D3E89 /* Pods-Margot_Example-resources.sh */,
+				1DE9197477383DF1F3FEFEF9ADF942A9 /* Pods-Margot_Example-umbrella.h */,
+				E9AC704F023518A34587AC98FFB38E79 /* Pods-Margot_Example.debug.xcconfig */,
+				18C94641DF364DA4EF9362648EFDB7F9 /* Pods-Margot_Example.release.xcconfig */,
+			);
+			name = "Pods-Margot_Example";
+			path = "Target Support Files/Pods-Margot_Example";
+			sourceTree = "<group>";
+		};
+		E1EC075F33270B3532C9449E4271946E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4F31B33BF82A3DF86100682BC9DF18A /* Pods-Margot_Example */,
+				3D9EC20046572BDDE2E52A49BB7EF09E /* Pods-Margot_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		ED45258921AFEBB200209E24 /* BasicTypeConvert */ = {
+			isa = PBXGroup;
+			children = (
+				ED45258A21AFEBBE00209E24 /* Conversion.swift */,
+				ED45258E21B0E8F600209E24 /* DoubleConversion.swift */,
+				ED45259021B0ED4700209E24 /* IntConversion.swift */,
+				ED45259221B3BEA900209E24 /* CGFloatConversion.swift */,
+				ED45259521B3C47F00209E24 /* LazyCaculatable.swift */,
+			);
+			name = BasicTypeConvert;
+			path = Margot/Classes/BasicTypeConvert;
+			sourceTree = "<group>";
+		};
+		ED9EE8ED21AFE6CA0074F5CC /* System */ = {
+			isa = PBXGroup;
+			children = (
+				ED45258721AFE88600209E24 /* MargotSystem.swift */,
+				ED45258C21B0D9F700209E24 /* MargotUIScreen.swift */,
+			);
+			name = System;
+			path = Margot/Classes/System;
+			sourceTree = "<group>";
+		};
+		F13541A87815C48E1F9047018B5F0DFC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B303BAC959E14F6FEED5338BEFE3D04D /* Margot */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C31F05F1B776BD231D43A6E306CD297 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660A01E4C858ACBAD55FC5482B7C96D5 /* Pods-Margot_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DE2A143A074683D2ED0F3F8D0856033 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9C92359A9B1C1FDD79D88D7DCC8E3A /* Pods-Margot_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89E51631B2AC2D72CA7120580C369E45 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F1BAF4CF168FBEA932A55B1A48C9720 /* Margot-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F88683BB738116272B3F96470EA04999 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78C9905EE7ED090C5E482CED179115F6 /* Gru-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		30E25D39C15B7D917FF5FCB88C7B46C1 /* Pods-Margot_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 001EB47A112BA94D34BCDE0A2F299A2D /* Build configuration list for PBXNativeTarget "Pods-Margot_Tests" */;
+			buildPhases = (
+				2DE2A143A074683D2ED0F3F8D0856033 /* Headers */,
+				E652A9E7D0F6D3DD415CBE27E11BE762 /* Sources */,
+				7A0F17520235B479A4274855A2F65E3A /* Frameworks */,
+				18D855C2CBB0B1161714F4005080F4A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6C3D73165FE78990028F3780CA438A0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Margot_Tests";
+			productName = "Pods-Margot_Tests";
+			productReference = 2FFC36577D49AEF85858B5064AB3048D /* Pods_Margot_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		44B4F225F08292C80C2C5F3A05086020 /* Margot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F929A90D357C3102F59A527DE68581EB /* Build configuration list for PBXNativeTarget "Margot" */;
+			buildPhases = (
+				89E51631B2AC2D72CA7120580C369E45 /* Headers */,
+				675C8B378FBD4E30B30CB65304AA37E6 /* Sources */,
+				0BE313332B0E01509A2CB930D0E3693F /* Frameworks */,
+				07C33708E5E78DDD9E824B2D180C768C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8597D86EEE93796693433BBA890620F9 /* PBXTargetDependency */,
+			);
+			name = Margot;
+			productName = Margot;
+			productReference = FEF5FB676037D9DDA5FCE9FBE0AAB62F /* Margot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A034A0F018E7CF5579667C30401F011 /* Gru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20516D5788DD911CB37B114A4EF3E180 /* Build configuration list for PBXNativeTarget "Gru" */;
+			buildPhases = (
+				F88683BB738116272B3F96470EA04999 /* Headers */,
+				7C515962D929037AFDFFBF912820BDB9 /* Sources */,
+				B572CB470951B77F24931E8CABDC59ED /* Frameworks */,
+				F46EC96966F63F7584646CCCFA081FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gru;
+			productName = Gru;
+			productReference = 6BE7977070DA7D03C156123BEB65B9DA /* Gru.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F6C30E45086968A00EA1467AF2DE7780 /* Pods-Margot_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF77FF18397B765A1A0ACA6B6373DC7A /* Build configuration list for PBXNativeTarget "Pods-Margot_Example" */;
+			buildPhases = (
+				0C31F05F1B776BD231D43A6E306CD297 /* Headers */,
+				2B87C85D85DBF15CE811A5FC585B128B /* Sources */,
+				1A953DC5FE9ACBB8C28D44FE739B3BC9 /* Frameworks */,
+				7612BD6A895D42B55F148DC48FFBDA12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				749D152BD3B383F5074EAAEB66F7007A /* PBXTargetDependency */,
+				CC0A0EF50ACDB462E60B5A4A3E46A21D /* PBXTargetDependency */,
+			);
+			name = "Pods-Margot_Example";
+			productName = "Pods-Margot_Example";
+			productReference = B8DDD5C16BD87FEEDC068AB535501710 /* Pods_Margot_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					44B4F225F08292C80C2C5F3A05086020 = {
+						LastSwiftMigration = 1000;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1B3321CE368DE29635AFDE9F0EFA7AE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A034A0F018E7CF5579667C30401F011 /* Gru */,
+				44B4F225F08292C80C2C5F3A05086020 /* Margot */,
+				F6C30E45086968A00EA1467AF2DE7780 /* Pods-Margot_Example */,
+				30E25D39C15B7D917FF5FCB88C7B46C1 /* Pods-Margot_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07C33708E5E78DDD9E824B2D180C768C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18D855C2CBB0B1161714F4005080F4A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7612BD6A895D42B55F148DC48FFBDA12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F46EC96966F63F7584646CCCFA081FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B87C85D85DBF15CE811A5FC585B128B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF403F649761B2C33052285730D1C34 /* Pods-Margot_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		675C8B378FBD4E30B30CB65304AA37E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED45259621B3C47F00209E24 /* LazyCaculatable.swift in Sources */,
+				ED45259421B3C26700209E24 /* CGFloatConversion.swift in Sources */,
+				1622221FC7CF900B03F47AA0EE6966E1 /* Margot-dummy.m in Sources */,
+				ED45258B21AFEBBE00209E24 /* Conversion.swift in Sources */,
+				ED45258F21B0E8F600209E24 /* DoubleConversion.swift in Sources */,
+				ED45259121B0ED4700209E24 /* IntConversion.swift in Sources */,
+				ED45258821AFE88600209E24 /* MargotSystem.swift in Sources */,
+				ED45258D21B0D9F700209E24 /* MargotUIScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C515962D929037AFDFFBF912820BDB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97C4EFA08886FF2F25093662B1CB5B16 /* Gru-dummy.m in Sources */,
+				E17C0A21E8B32BF79AA259B3B765B69A /* Gruable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E652A9E7D0F6D3DD415CBE27E11BE762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2358CC58C0F4662D5BB6ED3322BFF54C /* Pods-Margot_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		749D152BD3B383F5074EAAEB66F7007A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gru;
+			target = 6A034A0F018E7CF5579667C30401F011 /* Gru */;
+			targetProxy = 9B7329659ADCB0044EDAD6F553774FB8 /* PBXContainerItemProxy */;
+		};
+		8597D86EEE93796693433BBA890620F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Gru;
+			target = 6A034A0F018E7CF5579667C30401F011 /* Gru */;
+			targetProxy = 91766C2F003BDD203BEF63AA746C6A87 /* PBXContainerItemProxy */;
+		};
+		B6C3D73165FE78990028F3780CA438A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Margot_Example";
+			target = F6C30E45086968A00EA1467AF2DE7780 /* Pods-Margot_Example */;
+			targetProxy = 72DE5FA127C829A189AB7EE99DBBA2F3 /* PBXContainerItemProxy */;
+		};
+		CC0A0EF50ACDB462E60B5A4A3E46A21D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Margot;
+			target = 44B4F225F08292C80C2C5F3A05086020 /* Margot */;
+			targetProxy = F980EBC5980240261D5548649B50395C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		215EA4B6D6B74BC60BB6294185D4BF75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9AC704F023518A34587AC98FFB38E79 /* Pods-Margot_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Margot_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Margot_Example/Pods-Margot_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2AE8CF26A6D02F457A4DB4163091DB61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99FD5473E3B2A286FB125CDFDC7534C /* Pods-Margot_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Margot_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Margot_Tests/Pods-Margot_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		315A3EE51E63B2ED35F84FD92F66401A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 18C94641DF364DA4EF9362648EFDB7F9 /* Pods-Margot_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Margot_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Margot_Example/Pods-Margot_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6088F926B48709A2127EE083BC9B9F58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C4BDB4A74608F61C1FA6AD36C3D982 /* Gru.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gru/Gru-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gru/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gru/Gru.modulemap";
+				PRODUCT_MODULE_NAME = Gru;
+				PRODUCT_NAME = Gru;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C1981A4E00BF22324D1EED31899648C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9B38C0DD70747E621F0DAD6861DED7 /* Margot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Margot/Margot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Margot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Margot/Margot.modulemap";
+				PRODUCT_MODULE_NAME = Margot;
+				PRODUCT_NAME = Margot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C4D1F3DE36F7115E7B381FB7F90D27B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9B38C0DD70747E621F0DAD6861DED7 /* Margot.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Margot/Margot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Margot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Margot/Margot.modulemap";
+				PRODUCT_MODULE_NAME = Margot;
+				PRODUCT_NAME = Margot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF8D346AEB920F011D67F2B039104CB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77C4BDB4A74608F61C1FA6AD36C3D982 /* Gru.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Gru/Gru-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Gru/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Gru/Gru.modulemap";
+				PRODUCT_MODULE_NAME = Gru;
+				PRODUCT_NAME = Gru;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F2C7A2B2382D4339813FA1FB667EC534 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 866798EDF81C256C23B837EEFB7037F5 /* Pods-Margot_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Margot_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Margot_Tests/Pods-Margot_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		001EB47A112BA94D34BCDE0A2F299A2D /* Build configuration list for PBXNativeTarget "Pods-Margot_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2C7A2B2382D4339813FA1FB667EC534 /* Debug */,
+				2AE8CF26A6D02F457A4DB4163091DB61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20516D5788DD911CB37B114A4EF3E180 /* Build configuration list for PBXNativeTarget "Gru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6088F926B48709A2127EE083BC9B9F58 /* Debug */,
+				EF8D346AEB920F011D67F2B039104CB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
+				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF77FF18397B765A1A0ACA6B6373DC7A /* Build configuration list for PBXNativeTarget "Pods-Margot_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				215EA4B6D6B74BC60BB6294185D4BF75 /* Debug */,
+				315A3EE51E63B2ED35F84FD92F66401A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F929A90D357C3102F59A527DE68581EB /* Build configuration list for PBXNativeTarget "Margot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C1981A4E00BF22324D1EED31899648C /* Debug */,
+				C4D1F3DE36F7115E7B381FB7F90D27B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

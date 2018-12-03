@@ -1,0 +1,27 @@
+{
+  "name": "Margot",
+  "version": "0.1.0",
+  "summary": "A short description of Margot.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/magic_harly@hotmail.com/Margot",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "magic_harly@hotmail.com": "yi.he@liulishuo.com"
+  },
+  "source": {
+    "git": "https://github.com/magic_harly@hotmail.com/Margot.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Margot/Classes/**/*",
+  "dependencies": {
+    "Gru": [
+
+    ]
+  }
+}

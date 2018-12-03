@@ -7,11 +7,19 @@
 //
 
 import UIKit
-
+import Margot
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let intV = Int.random(in: 0..<100)
+        let doubleV = Double.random(in: 0..<100)
+        let cgV = CGFloat.random(in: 0..<100)
+        
+        let vv = 0.0
+        let r = vv / 0
+        let result = (intV + doubleV + cgV) / 0.0
+        print(result)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

@@ -1,0 +1,10 @@
+# Margot Jazzy config
+module: Margot
+
+author: Harly
+
+theme: fullwidth
+readme: README.md
+documentation: README.md
+output: ../Margot/docs
+xcodebuild_arguments: [SWIFT_VRSION=4.2]

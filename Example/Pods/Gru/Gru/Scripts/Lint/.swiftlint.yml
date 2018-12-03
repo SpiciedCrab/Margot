@@ -1,0 +1,125 @@
+disabled_rules: # rule identifiers to exclude from running
+  # - variable_name
+  - implicit_getter
+  - trailing_whitespace
+  - fallthrough
+  - function_parameter_count
+  - generic_type_name
+  - implicitly_unwrapped_optional
+  - is_disjoint
+  - joined_default_parameter
+  - large_tuple
+  - number_separator
+  - object_literal
+  - pattern_matching_keywords
+  - private_unit_test
+  - sorted_imports
+  - unused_enumerated
+  - unused_optional_binding
+  - valid_ibinspectable
+  - extension_access_modifier # <- what's it?
+  - trailing_closure
+  - private_over_fileprivate
+  - let_var_whitespace
+  - control_statement
+  - cyclomatic_complexity
+  - private_outlet # <- it doesn't work T_T
+  # 这个特别好，所有UI组件全部没有资格暴露出去的，无论是强暴还是强暴，vc的view属性一律不允许被别人访问，
+  # Cell的UI属性也不许被vc访问
+  # ✅ foo.map { $0 + 1 }
+  # ❌ foo.map({ $0 + 1 })
+opt_in_rules: # some rules are only opt-in
+  - comma
+  - force_unwrapping
+  - force_cast
+  - void_return
+  - identifier_name 
+  - return_arrow_whitespace
+  - legacy_cggeometry_functions
+  - legacy_constant
+  - legacy_constructor
+  - mark
+  - statement_position
+  - switch_case_alignment
+  - shorthand_operator
+  - multiline_arguments
+  - multiline_parameters
+  - unused_optional_binding
+  - trailing_semicolon
+  - syntactic_sugar
+  - trailing_comma
+  - trailing_closure
+  - redundant_void_return
+  - redundant_string_enum_value
+  - redundant_optional_initialization
+  - redundant_discardable_let
+  - protocol_property_accessors_order
+  - notification_center_detachment
+  - legacy_nsgeometry_functions
+  - closure_parameter_position
+  - closing_brace
+  - closure_spacing
+  - class_delegate_protocol
+  - opening_brace
+  - weak_delegate
+  - compiler_protocol_init
+  - discouraged_direct_init
+  - empty_parameters
+  - empty_parentheses_with_trailing_closure
+  - force_try
+  - function_body_length
+  - generic_type_name
+  - empty_count # <- it doesn't work T_T
+  # ✅ [Int]().isEmpty
+  # ❌ [Int]().↓count == 0
+
+included: # paths to include during linting. `--path` is ignored if present.
+  # - Project
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  - Project/R.generated.swift
+
+# configurable rules can be customized from this configuration file
+# binary rules can set their severity level
+force_cast: warning # implicitly. Give warning only for force casting
+
+force_try:
+  severity: warning # explicitly. Give warning only for force try
+
+type_body_length:
+  - 300 # warning
+  - 400 # error
+
+# or they can set both explicitly
+function_body_length:
+  warning: 80
+  error: 100
+
+line_length:
+  warning: 250
+  error: 300
+
+file_length:
+  warning: 600
+  error: 888
+
+large_tuple: # warn user when using 3 values in tuple, give error if there are 4
+   - 3
+   - 4
+   
+# naming rules can set warnings/errors for min_length and max_length
+# additionally they can set excluded names
+identifier_name:
+  min_length: 2 # only warning 
+  max_length: # warning and error
+    warning: 30
+    error: 40
+  excluded: iPhone # excluded via string
+
+type_name:
+  min_length: 4 # only warning
+  max_length: # warning and error
+    warning: 30
+    error: 35
+  excluded: iPhone # excluded via string
+reporter: "xcode"

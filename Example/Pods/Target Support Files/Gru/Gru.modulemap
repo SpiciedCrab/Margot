@@ -1,0 +1,6 @@
+framework module Gru {
+  umbrella header "Gru-umbrella.h"
+
+  export *
+  module * { export * }
+}

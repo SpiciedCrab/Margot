@@ -1,0 +1,6 @@
+framework module Margot {
+  umbrella header "Margot-umbrella.h"
+
+  export *
+  module * { export * }
+}

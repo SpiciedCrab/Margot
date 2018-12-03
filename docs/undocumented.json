@@ -1,0 +1,75 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/BasicTypeConvert/Conversion.swift",
+      "line": 22,
+      "symbol": "Optional.defaultValue(with:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/BasicTypeConvert/DoubleConversion.swift",
+      "line": 13,
+      "symbol": "Double.double",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/BasicTypeConvert/IntConversion.swift",
+      "line": 50,
+      "symbol": "UInt32.int",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/BasicTypeConvert/LazyCaculatable.swift",
+      "line": 16,
+      "symbol": "LazyCaculatable.double",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/System/MargotSystem.swift",
+      "line": 23,
+      "symbol": "Formatters",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/System/MargotSystem.swift",
+      "line": 42,
+      "symbol": "SystemInfo",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/System/MargotUIScreen.swift",
+      "line": 24,
+      "symbol": "Screen",
+      "symbol_kind": "source.lang.swift.decl.struct",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/System/MargotUIScreen.swift",
+      "line": 61,
+      "symbol": "Screen.scaleW",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/System/MargotUIScreen.swift",
+      "line": 65,
+      "symbol": "Screen.scaleH",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/Harly/Library/Developer/Gru/Margot/Margot/Classes/System/MargotUIScreen.swift",
+      "line": 69,
+      "symbol": "Screen.scaleWH",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/Harly/Library/Developer/Gru/Margot"
+}

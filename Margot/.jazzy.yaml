@@ -1,0 +1,9 @@
+# Margot Jazzy config
+module: Margot
+
+author: Harly
+
+theme: fullwidth
+readme: README.md
+documentation: README.md
+output: ~/docs
